@@ -15,6 +15,11 @@
     <meta property="og:url" content="">
     <meta name="twitter:card" content="summary_large_image">
 
+    <!-- Google Fonts: Oswald (display) + Work Sans (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <!-- Structured Data (LocalBusiness) — populated by JS -->
     <script type="application/ld+json" id="seo-jsonld">
     {
@@ -51,14 +56,14 @@
                 colors: {
                     background: "#FDFAF7",       // #FDFAF7 (Warm Cream)
                     text: "#1a1a2e",           // #1E1B18 (Deep Charcoal)
-                    accent: "#c9a84c",       // #C8462C (Barber Red)
+                    accent: "#C8462C",       // #C8462C (Barber Red)
                     surface: "#F3EEE8",     // #F3EEE8 (Leather Tan)
                     border: "#D4CDC4",       // #D4CDC4 (Warm Muted)
                     barberPole: "#1B4D8C"    // #1B4D8C (Barber Blue)
                 },
                 fonts: {
-                    heading: "'Segoe UI', system-ui, -apple-system, sans-serif",
-                    body: "'Segoe UI', system-ui, -apple-system, sans-serif"
+                    heading: "'Oswald', sans-serif",
+                    body: "'Work Sans', sans-serif"
                 }
             },
             seo: {
@@ -78,12 +83,12 @@
                 ctaText: "Walk-ins Welcome / Book a Cut"
             },
             services: [
-                { icon: "💈", name: "Haircut & Style", desc: "Professional haircut with fade, texturing, and styling options", price: "[placeholder]" },
-                { icon: "🪒", name: "Shave", desc: "Classic straight-razor shave service", price: "[placeholder]" },
-                { icon: "✂️", name: "Kid's Haircut", desc: "Haircuts for kids — 'Who says we're just for grown men?'", price: "[placeholder]" },
-                { icon: "🧴", name: "Pomade & Styling Products", desc: "8th year anniversary pomade and other styling products available", price: "[placeholder]" },
-                { icon: "👑", name: "Haircut + Shave Combo", desc: "Full haircut with straight razor shave — the classic barbershop experience in one visit", price: "[placeholder]" },
-                { icon: "🔥", name: "Hot Towel Shave", desc: "Traditional straight razor shave with hot towel treatment and cold pack finish", price: "[placeholder]" }
+                { icon: "💈", name: "Haircut & Style", desc: "Professional haircut with fade, texturing, and styling options", price: "₱250" },
+                { icon: "🪒", name: "Shave", desc: "Classic straight-razor shave service", price: "₱180" },
+                { icon: "✂️", name: "Kid's Haircut", desc: "Haircuts for kids — 'Who says we're just for grown men?'", price: "₱150" },
+                { icon: "🧴", name: "Pomade & Styling Products", desc: "8th year anniversary pomade and other styling products available", price: "₱300" },
+                { icon: "👑", name: "Haircut + Shave Combo", desc: "Full haircut with straight razor shave — the classic barbershop experience in one visit", price: "₱380" },
+                { icon: "🔥", name: "Hot Towel Shave", desc: "Traditional straight razor shave with hot towel treatment and cold pack finish", price: "₱280" }
             ],
             about: {
                 text: "Your go-to barbershop in the South delivering quality grooming service since 2015. Stay Suave all day! Modern traditional barbershop with air-conditioned cozy atmosphere, leather seats, and fun atmosphere with showmanship from barbers.",
@@ -99,9 +104,9 @@
                 "images/interior.jpg",
                 "images/lobby.jpg",
                 "images/exterior.jpg",
-                "https://placehold.co/600x600/1a1a2e/F3EEE8?text=Haircut+1",
-                "https://placehold.co/600x600/1a1a2e/F3EEE8?text=Haircut+2",
-                "https://placehold.co/600x600/1a1a2e/F3EEE8?text=Barber+Chair"
+                "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&h=600&fit=crop",
+                "https://images.unsplash.com/photo-1621605815971-f11498e13fcc?w=600&h=600&fit=crop",
+                "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&h=600&fit=crop"
             ],
             galleryLabels: [
                 "Shop Interior",
@@ -255,8 +260,8 @@
             --surface-color: #f3eee8;
             --border-color: #d4cdc4;
             --barber-blue: #1b4d8c;
-            --font-heading: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            --font-body: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            --font-heading: 'Oswald', sans-serif;
+            --font-body: 'Work Sans', sans-serif;
         }
 
         * {
